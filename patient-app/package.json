@@ -27,4 +27,11 @@
     "react-native-web": "^0.21.0"
   },
   "private": true
+  "version": "0.1.0",
+  "private": true,
+  "description": "Placeholder mobile frontend for Patient Management & Mental Health Tracker.",
+  "scripts": {
+    "start": "echo \"Define start script for your chosen mobile framework (e.g. React Native, Flutter).\"",
+    "test": "echo \"Add tests for patient-app.\""
+  }
 }

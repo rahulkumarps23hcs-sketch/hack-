@@ -1,0 +1,7 @@
+# Placeholder dependencies for ai-features
+# Add your AI/ML and data libraries here, for example:
+# numpy
+# pandas
+# scikit-learn
+# torch
+# tensorflow
