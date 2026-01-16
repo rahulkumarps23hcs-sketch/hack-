@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "HealthCare Patient",
+    "slug": "patient-management-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6B9BD1"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.healthcare.patient"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#6B9BD1"
+      },
+      "package": "com.healthcare.patient"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
