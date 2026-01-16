@@ -1,6 +1,6 @@
 {
-  "name": "backend",
-  "version": "0.1.0",
+  "name": "patient-management-backend",
+  "version": "1.0.0",
   "private": true,
   "description": "Hackathon-ready Node + Express mock backend for Patient Management & Mental Health Tracker.",
   "main": "index.js",
@@ -9,13 +9,17 @@
     "start": "node index.js",
     "test": "echo \"No backend tests defined (hackathon mode)\""
   },
+  "keywords": ["healthcare", "api", "mock"],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.0",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
-    "nodemon": "^3.0.0"
+    "nodemon": "^3.0.1"
   }
 }
