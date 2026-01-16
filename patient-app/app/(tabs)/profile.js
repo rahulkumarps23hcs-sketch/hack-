@@ -49,7 +49,10 @@ export default function ProfileScreen() {
                 {/* Medical History */}
                 <Text style={[styles.sectionTitle, { color: theme.colors.textMain }]}>Medical History</Text>
                 <Card noPadding>
-                    <TouchableOpacity style={styles.menuItem}>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => router.push('/medical/records')}
+                    >
                         <FileText size={20} color={theme.colors.textMain} />
                         <Text style={[styles.menuText, { color: theme.colors.textMain }]}>Medical Records</Text>
                     </TouchableOpacity>
