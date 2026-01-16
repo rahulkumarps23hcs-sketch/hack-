@@ -1,9 +1,12 @@
-// Placeholder entry point for the backend API and database layer.
-//
-// Choose your backend stack (Node/Express, FastAPI, Django, etc.) and
-// implement the HTTP server, routing, and persistence logic here.
-//
-// At this stage, this file only contains a placeholder message. There is
-// no real business logic or data handling implemented.
+// Entry point for the hackathon backend server.
+// Loads environment variables, wires the Express app, and starts listening.
 
-console.log("backend placeholder - implement API and database layer here.");
+require('dotenv').config();
+
+const app = require('./src/app');
+
+const PORT = process.env.PORT || 4000;
+
+app.listen(PORT, () => {
+  console.log(`Hack backend server listening on port ${PORT}`);
+});
