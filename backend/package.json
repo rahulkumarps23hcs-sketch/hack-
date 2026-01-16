@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Placeholder backend API for Patient Management & Mental Health Tracker.",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Implement production start command (e.g. node index.js).\"",
+    "dev": "echo \"Implement dev server (e.g. nodemon index.js).\"",
+    "test": "echo \"Add backend tests.\""
+  }
+}
